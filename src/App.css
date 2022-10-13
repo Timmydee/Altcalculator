@@ -1,0 +1,49 @@
+.App{
+  width: 200px;
+  /* border: 1px solid black; */
+  background: grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.display{
+  width: 200px;
+  height: 50px;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+.expression{
+  width: 200px;
+  height: 20px;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+.panel{
+  margin: 0 auto;
+  /* height: auto; */
+}
+button{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 65px;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 100px;
+  margin-bottom: 9px;
+  color: black;
+  
+}
+button:hover{
+  background-color: chocolate;
+}
+.numbers{
+  margin-top: 6px;
+  display: grid;
+  grid-template: auto auto auto / repeat(3, 1fr)
+}
+.op{
+  background-color: yellow;
+}
+.result{
+  width: 200px;
+
+}
+
+
